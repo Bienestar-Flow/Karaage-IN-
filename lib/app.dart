@@ -73,6 +73,16 @@ class _GameScreenState extends State<_GameScreen> {
                 ),
                 textAlign: TextAlign.center,
               ),
+              SizedBox(height: 8),
+              Text(
+                'ブラウザで遊んでください',
+                style: TextStyle(
+                  color: AppColors.cream,
+                  fontWeight: FontWeight.w400,
+                  fontSize: 14,
+                ),
+                textAlign: TextAlign.center,
+              ),
             ],
           ),
         ),
